@@ -1,0 +1,6 @@
+{
+  "name": "Jay’z Qur’an",
+  "description": "Premium Cinematic Islamic App - Digital Al-Qur'an, Prayer Times, Adzan Reminders, Hijri Calendar & Multilingual Companion",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

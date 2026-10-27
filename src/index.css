@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary-emerald: #064B32;
+    --emerald-light: #08784F;
+    --forest-dark: #09251B;
+    --royal-gold: #E9B949;
+    --royal-gold-light: #F7D070;
+    --warm-ivory: #FFF4D6;
+    --app-bg: #FFFDF5;
+    --surface: #FFFFFF;
+    --surface-muted: #F5F7F2;
+    --text-secondary: #52665B;
+    --border: #DCE5DD;
+  }
+
+  .dark {
+    --primary-emerald: #08784F;
+    --emerald-light: #2DD4BF;
+    --forest-dark: #02120C;
+    --royal-gold: #E9B949;
+    --royal-gold-light: #F7D070;
+    --warm-ivory: #0E291E;
+    --app-bg: #02140D;
+    --surface: #042017;
+    --surface-muted: #06281C;
+    --text-secondary: #94A3B8;
+    --border: #133D2E;
+  }
+
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-arabic {
+  font-family: 'Amiri', 'Scheherazade New', 'Traditional Arabic', serif;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+/* Islamic Geometric Arabesque subtle background pattern */
+.islamic-pattern {
+  background-image: radial-gradient(rgba(233, 185, 73, 0.12) 1px, transparent 1px),
+                    radial-gradient(rgba(6, 75, 50, 0.08) 1px, transparent 1px);
+  background-size: 24px 24px;
+  background-position: 0 0, 12px 12px;
+}
+
+.dark .islamic-pattern {
+  background-image: radial-gradient(rgba(233, 185, 73, 0.15) 1px, transparent 1px),
+                    radial-gradient(rgba(8, 120, 79, 0.15) 1px, transparent 1px);
+}
+
+/* Custom scrollbar for Quran reader */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(6, 75, 50, 0.2);
+  border-radius: 9999px;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(233, 185, 73, 0.3);
+}
+

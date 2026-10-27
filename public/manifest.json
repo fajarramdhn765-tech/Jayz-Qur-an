@@ -1,0 +1,27 @@
+{
+  "id": "/",
+  "name": "Jay’z Qur’an",
+  "short_name": "Jay’zQuran",
+  "description": "Dekat dengan Al-Qur’an, Setiap Waktu - Premium Islamic Companion",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#064B32",
+  "theme_color": "#064B32",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["lifestyle", "education", "books"]
+}
